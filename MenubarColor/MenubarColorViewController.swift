@@ -17,7 +17,7 @@ class MenubarColorViewController: NSViewController {
 //        textLabel.stringValue = toString(menubarColors[currentMenubarColorIndex])
     }
 
-    func copyHash(writeString:String){
+    func copyHex(writeString:String){
         pasteBoard.clearContents()
         pasteBoard.writeObjects([writeString])
         println(writeString)
@@ -31,134 +31,134 @@ extension MenubarColorViewController {
     FlatUIColors click Events.
     */
     @IBAction func clickTurquoise(sender: NSButton) {
-        copyHash(FlatHashColors.TURQUOISE.rawValue)
+        copyHex(FlatHexColors.TURQUOISE.rawValue)
     }
     @IBAction func clickGreenSea(sender: NSButton) {
-        copyHash(FlatHashColors.GREEN_SEA.rawValue)
+        copyHex(FlatHexColors.GREEN_SEA.rawValue)
     }
     @IBAction func clickSunFlower(sender: NSButton) {
-        copyHash(FlatHashColors.SUN_FLOWER.rawValue)
+        copyHex(FlatHexColors.SUN_FLOWER.rawValue)
     }
     @IBAction func clickOrange(sender: NSButton) {
-        copyHash(FlatHashColors.ORANGE.rawValue)
+        copyHex(FlatHexColors.ORANGE.rawValue)
     }
     @IBAction func clickEmerald(sender: NSButton) {
-        copyHash(FlatHashColors.EMERALD.rawValue)
+        copyHex(FlatHexColors.EMERALD.rawValue)
     }
     @IBAction func clickNephritis(sender: NSButton) {
-        copyHash(FlatHashColors.NEPHRITIS.rawValue)
+        copyHex(FlatHexColors.NEPHRITIS.rawValue)
     }
     @IBAction func clickCarrot(sender: NSButton) {
-        copyHash(FlatHashColors.CARROT.rawValue)
+        copyHex(FlatHexColors.CARROT.rawValue)
     }
     @IBAction func clickPumpkin(sender: NSButton) {
-        copyHash(FlatHashColors.PUMPKIN.rawValue)
+        copyHex(FlatHexColors.PUMPKIN.rawValue)
     }
     @IBAction func clickPeterRiver(sender: NSButton) {
-        copyHash(FlatHashColors.PETER_RIVER.rawValue)
+        copyHex(FlatHexColors.PETER_RIVER.rawValue)
     }
     @IBAction func clickBelizeHole(sender: NSButton) {
-        copyHash(FlatHashColors.BELIZE_HOME.rawValue)
+        copyHex(FlatHexColors.BELIZE_HOME.rawValue)
     }
     @IBAction func clickAlizarin(sender: NSButton) {
-        copyHash(FlatHashColors.ALIZARIN.rawValue)
+        copyHex(FlatHexColors.ALIZARIN.rawValue)
     }
     @IBAction func clickPomegranate(sender: NSButton) {
-        copyHash(FlatHashColors.POMEGRANATE.rawValue)
+        copyHex(FlatHexColors.POMEGRANATE.rawValue)
     }
     @IBAction func clickAmethyst(sender: NSButton) {
-        copyHash(FlatHashColors.AMETHYST.rawValue)
+        copyHex(FlatHexColors.AMETHYST.rawValue)
     }
     @IBAction func clickWisteria(sender: NSButton) {
-        copyHash(FlatHashColors.WISTERIA.rawValue)
+        copyHex(FlatHexColors.WISTERIA.rawValue)
     }
     @IBAction func clickClouds(sender: NSButton) {
-        copyHash(FlatHashColors.CLOUDS.rawValue)
+        copyHex(FlatHexColors.CLOUDS.rawValue)
     }
     @IBAction func clickSilver(sender: NSButton) {
-        copyHash(FlatHashColors.SILVER.rawValue)
+        copyHex(FlatHexColors.SILVER.rawValue)
     }
     @IBAction func clickWetAsphalt(sender: NSButton) {
-        copyHash(FlatHashColors.WET_ASPHALT.rawValue)
+        copyHex(FlatHexColors.WET_ASPHALT.rawValue)
     }
     @IBAction func clickMidnightBlue(sender: NSButton) {
-        copyHash(FlatHashColors.MIDNIGHT_BLUE.rawValue)
+        copyHex(FlatHexColors.MIDNIGHT_BLUE.rawValue)
     }
     @IBAction func clickConcrete(sender: NSButton) {
-        copyHash(FlatHashColors.CONCREATE.rawValue)
+        copyHex(FlatHexColors.CONCREATE.rawValue)
     }
     @IBAction func clickAsbestos(sender: NSButton) {
-        copyHash(FlatHashColors.ASBESTOS.rawValue)
+        copyHex(FlatHexColors.ASBESTOS.rawValue)
     }
 
     /**
     MaterialUIColors click Events.
     */
     @IBAction func clickRed(sender: NSButton) {
-        copyHash(MaterialHashColors.RED.rawValue)
+        copyHex(MaterialHexColors.RED.rawValue)
     }
     @IBAction func clickIndigo(sender: NSButton) {
-        copyHash(MaterialHashColors.INDIGO.rawValue)
+        copyHex(MaterialHexColors.INDIGO.rawValue)
     }
     @IBAction func clickGreen(sender: NSButton) {
-        copyHash(MaterialHashColors.GREEN.rawValue)
+        copyHex(MaterialHexColors.GREEN.rawValue)
     }
     @IBAction func clickMaterialOrange(sender: NSButton) {
-        copyHash(MaterialHashColors.ORANGE.rawValue)
+        copyHex(MaterialHexColors.ORANGE.rawValue)
     }
     @IBAction func clickPink(sender: NSButton) {
-        copyHash(MaterialHashColors.PINK.rawValue)
+        copyHex(MaterialHexColors.PINK.rawValue)
     }
     @IBAction func clickBlue(sender: NSButton) {
-        copyHash(MaterialHashColors.BLUE.rawValue)
+        copyHex(MaterialHexColors.BLUE.rawValue)
     }
     @IBAction func clickLightGreen(sender: NSButton) {
-        copyHash(MaterialHashColors.LIGHT_GREEN.rawValue)
+        copyHex(MaterialHexColors.LIGHT_GREEN.rawValue)
     }
     @IBAction func clickDeepOrange(sender: NSButton) {
-        copyHash(MaterialHashColors.DEEP_ORANGE.rawValue)
+        copyHex(MaterialHexColors.DEEP_ORANGE.rawValue)
     }
     @IBAction func clickBlack(sender: NSButton) {
-        copyHash(MaterialHashColors.BLACK.rawValue)
+        copyHex(MaterialHexColors.BLACK.rawValue)
     }
     @IBAction func clickLightBlue(sender: NSButton) {
-        copyHash(MaterialHashColors.LIGHT_BLUE.rawValue)
+        copyHex(MaterialHexColors.LIGHT_BLUE.rawValue)
     }
     @IBAction func clickLime(sender: NSButton) {
-        copyHash(MaterialHashColors.LIME.rawValue)
+        copyHex(MaterialHexColors.LIME.rawValue)
     }
     @IBAction func clickBrown(sender: NSButton) {
-        copyHash(MaterialHashColors.BROWN.rawValue)
+        copyHex(MaterialHexColors.BROWN.rawValue)
     }
     @IBAction func clickPurple(sender: NSButton) {
-        copyHash(MaterialHashColors.PURPLE.rawValue)
+        copyHex(MaterialHexColors.PURPLE.rawValue)
     }
     @IBAction func clickCyan(sender: NSButton) {
-        copyHash(MaterialHashColors.CYAN.rawValue)
+        copyHex(MaterialHexColors.CYAN.rawValue)
     }
     @IBAction func clickYellow(sender: NSButton) {
-        copyHash(MaterialHashColors.YELLOW.rawValue)
+        copyHex(MaterialHexColors.YELLOW.rawValue)
     }
     @IBAction func clickGray(sender: NSButton) {
-        copyHash(MaterialHashColors.GRAY.rawValue)
+        copyHex(MaterialHexColors.GRAY.rawValue)
     }
     @IBAction func clickDeepPerple(sender: NSButton) {
-        copyHash(MaterialHashColors.DEEP_PURPLE.rawValue)
+        copyHex(MaterialHexColors.DEEP_PURPLE.rawValue)
     }
     @IBAction func clickTeal(sender: NSButton) {
-        copyHash(MaterialHashColors.TEAL.rawValue)
+        copyHex(MaterialHexColors.TEAL.rawValue)
     }
     @IBAction func clickAmber(sender: NSButton) {
-        copyHash(MaterialHashColors.AMBER.rawValue)
+        copyHex(MaterialHexColors.AMBER.rawValue)
     }
     @IBAction func clickBlueGray(sender: NSButton) {
-        copyHash(MaterialHashColors.BLUE_GEAY.rawValue)
+        copyHex(MaterialHexColors.BLUE_GEAY.rawValue)
     }
 
 }
 
 
-private enum MaterialHashColors: String {
+private enum MaterialHexColors: String {
     case RED = "#F44336"
     case INDIGO = "#3F51B5"
     case GREEN = "#4CAF50"
@@ -182,7 +182,7 @@ private enum MaterialHashColors: String {
 }
 
 
-private enum FlatHashColors: String {
+private enum FlatHexColors: String {
     case TURQUOISE = "#1abc9c"
     case GREEN_SEA = "#16a085"
     case SUN_FLOWER = "#f1c40f"
