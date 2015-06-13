@@ -171,7 +171,7 @@
                                     </textField>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJK-2b-e8z">
                                         <rect key="frame" x="3" y="262" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s2x-Zt-dbe">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="s2x-Zt-dbe">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
@@ -181,142 +181,142 @@
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Va-oo-Q1G">
                                         <rect key="frame" x="157" y="262" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="A1b-64-mgV">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="A1b-64-mgV">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="xp6-F5-MXm"/>
+                                            <action selector="clickEmerald:" target="-2" id="Vcs-ka-lBa"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sWE-o7-7e2">
                                         <rect key="frame" x="311" y="262" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wg0-Qz-RNv">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="Wg0-Qz-RNv">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="vu9-la-R3a"/>
+                                            <action selector="clickPeterRiver:" target="-2" id="uJJ-5Q-RMj"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BTk-7i-MME">
                                         <rect key="frame" x="465" y="262" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eRj-OP-3g6">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="eRj-OP-3g6">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="cdO-0b-Q06"/>
+                                            <action selector="clickAmethyst:" target="-2" id="0Lu-i8-oah"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pbp-aV-7ov">
                                         <rect key="frame" x="465" y="176" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1r3-Rg-PyU">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="1r3-Rg-PyU">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="vd8-KW-7OO"/>
+                                            <action selector="clickWisteria:" target="-2" id="80z-mh-aRG"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="op8-sZ-JMv">
                                         <rect key="frame" x="465" y="90" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="g8N-1h-AK4">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="g8N-1h-AK4">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="rJy-Bm-Iui"/>
+                                            <action selector="clickClouds:" target="-2" id="nvy-Iz-by3"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAd-hr-3I5">
                                         <rect key="frame" x="311" y="176" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZIq-2X-WQ3">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="ZIq-2X-WQ3">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="8ba-zf-TaD"/>
+                                            <action selector="clickBelizeHole:" target="-2" id="jpy-cA-S6C"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ryN-DO-jgB">
                                         <rect key="frame" x="311" y="90" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8tH-33-Kef">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="8tH-33-Kef">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="W3R-N9-FdZ"/>
+                                            <action selector="clickAlizarin:" target="-2" id="BWb-z8-4nj"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tIf-FS-wdi">
                                         <rect key="frame" x="311" y="4" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4Gu-yM-wkc">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="4Gu-yM-wkc">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="hWQ-FK-1Ez"/>
+                                            <action selector="clickPomegranate:" target="-2" id="8TF-h5-3PM"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZS-jn-juv">
                                         <rect key="frame" x="157" y="176" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bn7-gf-Qds">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="bn7-gf-Qds">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="7gB-32-Dpt"/>
+                                            <action selector="clickNephritis:" target="-2" id="t8F-H6-q3M"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="24y-6H-ZOh">
                                         <rect key="frame" x="157" y="90" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RaI-Il-1tv">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="RaI-Il-1tv">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="Igk-gL-7lU"/>
+                                            <action selector="clickCarrot:" target="-2" id="Vqo-IP-PAG"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MtA-67-DaN">
                                         <rect key="frame" x="157" y="4" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Cq3-jc-gae">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="Cq3-jc-gae">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="6sS-OP-r4g"/>
+                                            <action selector="clickPumpkin:" target="-2" id="m3D-ol-oIo"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8x-Zf-IaM">
                                         <rect key="frame" x="3" y="176" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ypQ-97-y0d">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="ypQ-97-y0d">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="GreenSea:" target="-2" id="tdh-Nf-RBL"/>
+                                            <action selector="clickGreenSea:" target="-2" id="bH5-gg-SIT"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KId-dn-ZYR">
                                         <rect key="frame" x="3" y="90" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zz9-4m-v2k">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="zz9-4m-v2k">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="GreenSea:" target="-2" id="fvN-PN-wfc"/>
+                                            <action selector="clickSunFlower:" target="-2" id="f3b-55-EHn"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeB-Q0-yhU">
                                         <rect key="frame" x="3" y="4" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qFV-0w-34T">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="qFV-0w-34T">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="GreenSea:" target="-2" id="W1B-Xq-IT3"/>
+                                            <action selector="clickOrange:" target="-2" id="Hb5-ix-8Ll"/>
                                         </connections>
                                     </button>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKb-Nt-KB8">
@@ -337,52 +337,52 @@
                                     </textField>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mdZ-dD-09Z">
                                         <rect key="frame" x="465" y="4" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vxs-K4-ohA">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="vxs-K4-ohA">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="55L-Ja-Mt3"/>
+                                            <action selector="clickSilver:" target="-2" id="Wqm-9c-Yjm"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-TH-NMB">
                                         <rect key="frame" x="619" y="262" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nFs-s8-6Sx">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="nFs-s8-6Sx">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="q5o-0R-3TE"/>
+                                            <action selector="clickWetAsphalt:" target="-2" id="nRT-OQ-R94"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rBe-4A-uiu">
                                         <rect key="frame" x="619" y="176" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="McZ-R4-Z6L">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="McZ-R4-Z6L">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="0Xa-w8-uBQ"/>
+                                            <action selector="clickMidnightBlue:" target="-2" id="S1T-a8-FN2"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5W3-P8-bv4">
                                         <rect key="frame" x="619" y="90" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Uql-8q-tbS">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="Uql-8q-tbS">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="oj5-DA-E6o"/>
+                                            <action selector="clickConcrete:" target="-2" id="P2T-Ya-fqx"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CJi-2k-BYz">
                                         <rect key="frame" x="619" y="4" width="154" height="86"/>
-                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7YW-bZ-4tc">
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="7YW-bZ-4tc">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" size="15" name="GillSans-Bold"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="clickTurquoise:" target="-2" id="ggO-YP-bkf"/>
+                                            <action selector="clickAsbestos:" target="-2" id="Jga-7x-lvn"/>
                                         </connections>
                                     </button>
                                 </subviews>
