@@ -12,7 +12,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
+    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2)
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
@@ -20,10 +20,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.image = NSImage(named: "StatusBarButtonImage")
             button.action = Selector("printMenubarColor:")
         }
+        setMenubarItem()
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
+    }
+
+    func setMenubarItem(){
+        let menu = NSMenu()
+
+        menu.addItem(NSMenuItem(title: "Print Quote", action: Selector("printMenubarColor:"), keyEquivalent: "P"))
+        menu.addItem(NSMenuItem.separatorItem())
+        menu.addItem(NSMenuItem(title: "Quit Quotes", action: Selector("terminate:"), keyEquivalent: "q"))
+        
+        statusItem.menu = menu
     }
 
     func printMenubarColor(sender: AnyObject) {
