@@ -12,37 +12,35 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2)
+    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
+    let popover = NSPopover()
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         if let button = statusItem.button {
             button.image = NSImage(named: "StatusBarButtonImage")
-            button.action = Selector("printMenubarColor:")
+            button.action = Selector("togglePopover:")
         }
-        setMenubarItem()
+        popover.contentViewController = MenubarColorViewController(nibName: "MenubarColorViewController", bundle: nil)
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
+    func showPopover(sender: AnyObject?) {
+        if let button = statusItem.button {
+            popover.showRelativeToRect(button.bounds, ofView: button, preferredEdge: NSMinYEdge)
+        }
     }
 
-    func setMenubarItem(){
-        let menu = NSMenu()
-
-        menu.addItem(NSMenuItem(title: "Print Quote", action: Selector("printMenubarColor:"), keyEquivalent: "P"))
-        menu.addItem(NSMenuItem.separatorItem())
-        menu.addItem(NSMenuItem(title: "Quit Quotes", action: Selector("terminate:"), keyEquivalent: "q"))
-        
-        statusItem.menu = menu
+    func closePopover(sender: AnyObject?) {
+        popover.performClose(sender)
     }
 
-    func printMenubarColor(sender: AnyObject) {
-        let quoteText = "Never put off until tomorrow what you can do the day after tomorrow."
-        let quoteAuthor = "Mark Twain"
-
-        println("\(quoteText) — \(quoteAuthor)")
+    func togglePopover(sender: AnyObject?) {
+        if popover.shown {
+            closePopover(sender)
+        } else {
+            showPopover(sender)
+        }
     }
-
 
 }
 
