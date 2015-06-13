@@ -6,60 +6,399 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MenubarColorViewController" customModule="MenubarColor" customModuleProvider="target">
             <connections>
-                <outlet property="textLabel" destination="elG-iw-UbC" id="j0z-8P-X53"/>
+                <outlet property="torquoise" destination="TGf-4a-O5P" id="kE9-4c-v5Y"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="Hz6-mo-xeY">
-            <rect key="frame" x="0.0" y="-6" width="480" height="272"/>
+            <rect key="frame" x="0.0" y="0.0" width="823" height="421"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="alk-PX-Vd6">
-                    <rect key="frame" x="18" y="17" width="19" height="237"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="NSGoLeftTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6CL-q4-uAC">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system" size="10"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="goLeft:" target="-2" id="mFJ-zq-Ood"/>
-                    </connections>
-                </button>
-                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EKG-St-4yZ">
-                    <rect key="frame" x="443" y="17" width="19" height="237"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="NSGoRightTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YEq-Qg-ecX">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system" size="10"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="goRight:" target="-2" id="ZFX-KP-uw9"/>
-                    </connections>
-                </button>
-                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RNo-NT-ufZ">
-                    <rect key="frame" x="207" y="13" width="66" height="32"/>
-                    <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mL1-J6-e08">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="quit:" target="-2" id="6M4-wy-IXU"/>
-                    </connections>
-                </button>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="elG-iw-UbC">
-                    <rect key="frame" x="41" y="128" width="398" height="17"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="9ve-7Y-CII">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
+                <tabView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRg-qh-sMA">
+                    <rect key="frame" x="13" y="10" width="797" height="397"/>
+                    <font key="font" metaFont="system"/>
+                    <tabViewItems>
+                        <tabViewItem label="FlatUIColors" identifier="1" id="fSv-4y-97e">
+                            <view key="view" wantsLayer="YES" id="0bO-70-Mrg">
+                                <rect key="frame" x="10" y="33" width="777" height="351"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGf-4a-O5P">
+                                        <rect key="frame" x="3" y="262" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="TURQUOISE" drawsBackground="YES" id="5Ay-Rh-NlV">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.10196078431372549" green="0.73725490196078436" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wVy-98-CjD">
+                                        <rect key="frame" x="3" y="176" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="GREEN SEA" drawsBackground="YES" id="Wl2-yu-Z2W">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.086274509803921567" green="0.62745098039215685" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x3M-Fc-oXl">
+                                        <rect key="frame" x="3" y="90" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="SUN FLOWER" drawsBackground="YES" id="R1p-j9-c8f">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.94509803921568625" green="0.7686274509803922" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sea-77-6hT">
+                                        <rect key="frame" x="157" y="176" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="NEPHRITIS" drawsBackground="YES" id="M4u-Zv-w6D">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.15294117647058825" green="0.68235294117647061" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VN3-72-O8e">
+                                        <rect key="frame" x="157" y="90" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="CARROT" drawsBackground="YES" id="26f-vU-Fn8">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.90196078431372551" green="0.49411764705882355" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ODs-o0-pU2">
+                                        <rect key="frame" x="311" y="4" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="POMEGRANATE" drawsBackground="YES" id="nF7-Dr-0FB">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.75294117647058822" green="0.22352941176470589" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HJk-Jo-AG5">
+                                        <rect key="frame" x="157" y="4" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="PUMPKIN" drawsBackground="YES" id="mEU-yz-Jcr">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.82745098039215681" green="0.32941176470588235" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JCn-Lj-kla">
+                                        <rect key="frame" x="157" y="262" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="EMERALD" drawsBackground="YES" id="qmk-lh-mDY">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2GY-1y-S8l">
+                                        <rect key="frame" x="311" y="262" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="PETER RIVER" drawsBackground="YES" id="bcu-ed-Kbc">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q68-02-Hra">
+                                        <rect key="frame" x="311" y="176" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="BELIZE HOLE" drawsBackground="YES" id="Vap-Hl-4gg">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.16078431372549021" green="0.50196078431372548" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f24-Lb-uSf">
+                                        <rect key="frame" x="465" y="176" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="WISTERIA" drawsBackground="YES" id="cq6-VI-TWm">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.55686274509803924" green="0.26666666666666666" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqg-46-MzF">
+                                        <rect key="frame" x="619" y="90" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="CONCRETE" drawsBackground="YES" id="WIk-Ed-7q6">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.58431372549019611" green="0.6470588235294118" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xqk-09-WbR">
+                                        <rect key="frame" x="619" y="262" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="WET ASPHALT" drawsBackground="YES" id="Ule-cS-FFX">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IKf-Hr-XJK">
+                                        <rect key="frame" x="3" y="4" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="ORANGE" drawsBackground="YES" id="Leh-sK-Nj1">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.95294117647058818" green="0.61176470588235299" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECm-Td-2Oo">
+                                        <rect key="frame" x="311" y="90" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="ALIZARIN" drawsBackground="YES" id="68s-jC-BXi">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2aF-oQ-c1m">
+                                        <rect key="frame" x="465" y="262" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="AMETHYST" drawsBackground="YES" id="OXr-MF-DMf">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.60784313725490191" green="0.34901960784313724" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4gD-nQ-btA">
+                                        <rect key="frame" x="619" y="176" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="MIDNIGHT BLUE" drawsBackground="YES" id="wfL-iZ-f7V">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eMS-hm-ChT">
+                                        <rect key="frame" x="465" y="90" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="CLOUDS" drawsBackground="YES" id="GZI-3l-y0l">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" red="0.74117647058823533" green="0.76470588235294112" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJK-2b-e8z">
+                                        <rect key="frame" x="3" y="262" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s2x-Zt-dbe">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="Das-Zs-yFd"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Va-oo-Q1G">
+                                        <rect key="frame" x="157" y="262" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="A1b-64-mgV">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="xp6-F5-MXm"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sWE-o7-7e2">
+                                        <rect key="frame" x="311" y="262" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wg0-Qz-RNv">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="vu9-la-R3a"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BTk-7i-MME">
+                                        <rect key="frame" x="465" y="262" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eRj-OP-3g6">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="cdO-0b-Q06"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pbp-aV-7ov">
+                                        <rect key="frame" x="465" y="176" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1r3-Rg-PyU">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="vd8-KW-7OO"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="op8-sZ-JMv">
+                                        <rect key="frame" x="465" y="90" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="g8N-1h-AK4">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="rJy-Bm-Iui"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAd-hr-3I5">
+                                        <rect key="frame" x="311" y="176" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZIq-2X-WQ3">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="8ba-zf-TaD"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ryN-DO-jgB">
+                                        <rect key="frame" x="311" y="90" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8tH-33-Kef">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="W3R-N9-FdZ"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tIf-FS-wdi">
+                                        <rect key="frame" x="311" y="4" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4Gu-yM-wkc">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="hWQ-FK-1Ez"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZS-jn-juv">
+                                        <rect key="frame" x="157" y="176" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bn7-gf-Qds">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="7gB-32-Dpt"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="24y-6H-ZOh">
+                                        <rect key="frame" x="157" y="90" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RaI-Il-1tv">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="Igk-gL-7lU"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MtA-67-DaN">
+                                        <rect key="frame" x="157" y="4" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Cq3-jc-gae">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="6sS-OP-r4g"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8x-Zf-IaM">
+                                        <rect key="frame" x="3" y="176" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ypQ-97-y0d">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="GreenSea:" target="-2" id="tdh-Nf-RBL"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KId-dn-ZYR">
+                                        <rect key="frame" x="3" y="90" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zz9-4m-v2k">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="GreenSea:" target="-2" id="fvN-PN-wfc"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeB-Q0-yhU">
+                                        <rect key="frame" x="3" y="4" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qFV-0w-34T">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="GreenSea:" target="-2" id="W1B-Xq-IT3"/>
+                                        </connections>
+                                    </button>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKb-Nt-KB8">
+                                        <rect key="frame" x="465" y="4" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="SILVER" drawsBackground="YES" id="FAm-V3-hfl">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.74117647058823533" green="0.76470588235294112" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7U-o5-QBy">
+                                        <rect key="frame" x="619" y="4" width="154" height="86"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="ASBESTOS" drawsBackground="YES" id="YHu-X3-ywl">
+                                            <font key="font" size="16" name="GillSans-Bold"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" red="0.49803921568627452" green="0.5490196078431373" blue="0.55294117647058827" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mdZ-dD-09Z">
+                                        <rect key="frame" x="465" y="4" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vxs-K4-ohA">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="55L-Ja-Mt3"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-TH-NMB">
+                                        <rect key="frame" x="619" y="262" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nFs-s8-6Sx">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="q5o-0R-3TE"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rBe-4A-uiu">
+                                        <rect key="frame" x="619" y="176" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="McZ-R4-Z6L">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="0Xa-w8-uBQ"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5W3-P8-bv4">
+                                        <rect key="frame" x="619" y="90" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Uql-8q-tbS">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="oj5-DA-E6o"/>
+                                        </connections>
+                                    </button>
+                                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CJi-2k-BYz">
+                                        <rect key="frame" x="619" y="4" width="154" height="86"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7YW-bZ-4tc">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="15" name="GillSans-Bold"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickTurquoise:" target="-2" id="ggO-YP-bkf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </tabViewItem>
+                        <tabViewItem label="MaterialColors" identifier="2" id="hiO-cB-wwl">
+                            <view key="view" id="gah-sj-tsn">
+                                <rect key="frame" x="10" y="33" width="777" height="351"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                        </tabViewItem>
+                    </tabViewItems>
+                </tabView>
             </subviews>
-            <point key="canvasLocation" x="353" y="516"/>
+            <point key="canvasLocation" x="446.5" y="473.5"/>
         </customView>
+        <userDefaultsController representsSharedInstance="YES" id="Qth-5A-QHA"/>
     </objects>
-    <resources>
-        <image name="NSGoLeftTemplate" width="9" height="12"/>
-        <image name="NSGoRightTemplate" width="9" height="12"/>
-    </resources>
 </document>
