@@ -1,6 +1,12 @@
 # MenuBarColor
 MenuBarColor - OSX Application. (Swift)
 
+# 概要
+
+* Menubar常駐アプリ
+* アイコンをクリックするとFlat/Materialのカラーパレットが表示
+* パレットをクリックすると、クリップボードに色がコピーされる
+
 # TODO
 
 * HEX以外の色形式の対応
@@ -11,3 +17,5 @@ MenuBarColor - OSX Application. (Swift)
     * Quit, About, Start on Login...
 * Storeにリリース
 * Qiitaに投稿
+
+
