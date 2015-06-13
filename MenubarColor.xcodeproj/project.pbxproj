@@ -13,6 +13,7 @@
 		E3F1E6A91B2BC09400EF7F0D /* MenubarColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1E6A81B2BC09400EF7F0D /* MenubarColorTests.swift */; };
 		E3F1E6B41B2BC72300EF7F0D /* MenubarColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1E6B21B2BC72300EF7F0D /* MenubarColorViewController.swift */; };
 		E3F1E6B51B2BC72300EF7F0D /* MenubarColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F1E6B31B2BC72300EF7F0D /* MenubarColorViewController.xib */; };
+		E3F1E6B71B2BC96600EF7F0D /* MenubarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1E6B61B2BC96600EF7F0D /* MenubarColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E3F1E6A81B2BC09400EF7F0D /* MenubarColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenubarColorTests.swift; sourceTree = "<group>"; };
 		E3F1E6B21B2BC72300EF7F0D /* MenubarColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarColorViewController.swift; sourceTree = "<group>"; };
 		E3F1E6B31B2BC72300EF7F0D /* MenubarColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenubarColorViewController.xib; sourceTree = "<group>"; };
+		E3F1E6B61B2BC96600EF7F0D /* MenubarColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E3F1E6971B2BC09400EF7F0D /* AppDelegate.swift */,
+				E3F1E6B61B2BC96600EF7F0D /* MenubarColor.swift */,
 				E3F1E6991B2BC09400EF7F0D /* Images.xcassets */,
 				E3F1E69B1B2BC09400EF7F0D /* MainMenu.xib */,
 				E3F1E6B21B2BC72300EF7F0D /* MenubarColorViewController.swift */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F1E6B71B2BC96600EF7F0D /* MenubarColor.swift in Sources */,
 				E3F1E6B41B2BC72300EF7F0D /* MenubarColorViewController.swift in Sources */,
 				E3F1E6981B2BC09400EF7F0D /* AppDelegate.swift in Sources */,
 			);
