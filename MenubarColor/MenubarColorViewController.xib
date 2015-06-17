@@ -762,5 +762,19 @@
             <point key="canvasLocation" x="446.5" y="473.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="Qth-5A-QHA"/>
+        <menu id="OMZ-aO-GgV">
+            <items>
+                <menuItem title="Item 1" id="zYD-r0-5JD">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item 2" id="lWe-4r-8XJ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item 3" id="sei-bG-qjO">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="687" y="785.5"/>
+        </menu>
     </objects>
 </document>

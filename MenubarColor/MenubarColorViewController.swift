@@ -12,14 +12,10 @@ class MenubarColorViewController: NSViewController {
     @IBOutlet var textLabel: NSTextField!
     var pasteBoard = NSPasteboard.generalPasteboard()
 
-
-    func updateMenubarColor() {
-//        textLabel.stringValue = toString(menubarColors[currentMenubarColorIndex])
-    }
-
     func copyHex(writeString:String){
         pasteBoard.clearContents()
         pasteBoard.writeObjects([writeString])
+        
         println(writeString)
     }
 }
