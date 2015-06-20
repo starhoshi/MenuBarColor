@@ -6,6 +6,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MenubarColorViewController" customModule="MenubarColor" customModuleProvider="target">
             <connections>
+                <outlet property="popUpMenu" destination="6XW-3W-hjJ" id="zeG-Bs-5Vp"/>
                 <outlet property="torquoise" destination="TGf-4a-O5P" id="kE9-4c-v5Y"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
@@ -758,23 +759,45 @@
                         </tabViewItem>
                     </tabViewItems>
                 </tabView>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaO-wN-Yv2">
+                    <rect key="frame" x="792" y="388" width="32" height="32"/>
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="NSActionTemplate" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="YXi-hd-TwK">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="clickActionTemplate:" target="-2" id="gyS-HY-1Ka"/>
+                    </connections>
+                </button>
             </subviews>
             <point key="canvasLocation" x="446.5" y="473.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="Qth-5A-QHA"/>
-        <menu id="OMZ-aO-GgV">
+        <menu id="6XW-3W-hjJ">
             <items>
-                <menuItem title="Item 1" id="zYD-r0-5JD">
+                <menuItem title="About" id="zyp-s3-dqd">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="clickAbout:" target="-2" id="eLv-Gw-8hD"/>
+                    </connections>
                 </menuItem>
-                <menuItem title="Item 2" id="lWe-4r-8XJ">
+                <menuItem title="Start at Login" id="D0S-ho-3K2">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="clickStartAtLogin:" target="-2" id="bIB-qu-efw"/>
+                    </connections>
                 </menuItem>
-                <menuItem title="Item 3" id="sei-bG-qjO">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                <menuItem isSeparatorItem="YES" id="uBU-ud-0aR"/>
+                <menuItem title="Quit" keyEquivalent="q" id="G7O-oh-IOd">
+                    <connections>
+                        <action selector="clickQuit:" target="-2" id="sbF-XI-lsc"/>
+                    </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="687" y="785.5"/>
+            <point key="canvasLocation" x="734" y="795.5"/>
         </menu>
     </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+    </resources>
 </document>
