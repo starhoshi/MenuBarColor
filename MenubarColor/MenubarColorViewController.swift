@@ -12,17 +12,20 @@ class MenubarColorViewController: NSViewController{
     let pasteBoard = NSPasteboard.generalPasteboard()
     let userDefault = NSUserDefaults.standardUserDefaults()
     let appDelegate = NSApplication.sharedApplication().delegate as! AppDelegate
+    let aboutViewController = AboutViewController(windowNibName: "AboutViewController")
 
     @IBOutlet var popUpMenu: NSMenu!
+    var overlayLayoutConstraint: NSLayoutConstraint!
 
     func copyHex(writeString:String, sender:NSButton){
         pasteBoard.clearContents()
         pasteBoard.writeObjects([writeString])
-        appDelegate.closePopover(sender as AnyObject)
         println(writeString)
+        appDelegate.closePopover(sender as AnyObject)
     }
 
     func showMenu(sender: NSButton){
+
         NSMenu.popUpContextMenu(popUpMenu, withEvent: NSApplication.sharedApplication().currentEvent!, forView: sender)
     }
 
@@ -33,6 +36,12 @@ class MenubarColorViewController: NSViewController{
     func quitApp(sender: NSMenuItem){
         NSApplication.sharedApplication().terminate(sender)
     }
+
+    func openAboutWindow(sender: NSMenuItem){
+        aboutViewController.showWindow(sender)
+    }
+
+    
 
 }
 
@@ -45,7 +54,7 @@ extension MenubarColorViewController {
     }
 
     @IBAction func clickAbout(sender: NSMenuItem) {
-        println("about")
+        openAboutWindow(sender)
     }
 
     @IBAction func clickStartAtLogin(sender: NSMenuItem) {
@@ -61,6 +70,9 @@ extension MenubarColorViewController {
     */
     @IBAction func clickTurquoise(sender: NSButton) {
         copyHex(FlatHexColors.TURQUOISE.rawValue, sender:sender)
+//        sender.transparent = false
+//        sender.title = "copied"
+        
     }
     @IBAction func clickGreenSea(sender: NSButton) {
         copyHex(FlatHexColors.GREEN_SEA.rawValue, sender:sender)
